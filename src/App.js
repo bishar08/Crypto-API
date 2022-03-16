@@ -2,6 +2,8 @@ import React from 'react'
 import Featured from './components/Featured'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Signup from './components/Signup'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
       <Navbar />
       <Hero />
       <Featured />
+      <Signup />
+      <Footer />
     </>
   )
 }

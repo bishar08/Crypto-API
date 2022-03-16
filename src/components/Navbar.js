@@ -14,16 +14,16 @@ const Navbar = () => {
         </h1>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
-            <a>Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a>Featured</a>
+            <a href="/">Featured</a>
           </li>
           <li>
-            <a>Earn</a>
+            <a href="/">Earn</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a href="/">Contact</a>
           </li>
         </ul>
         <div className="btn-group">
